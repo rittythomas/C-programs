@@ -249,11 +249,11 @@ void main()
 			case 1: singleLevel();
 				break;
 			case 2: multiLevel();
-				break;
+				break;                    
 			case 3:
 				hierarchial();
 				break;
-			default: print "Exit";
+			default: printf( "Exit");
 					break;;
 		}
 	}
